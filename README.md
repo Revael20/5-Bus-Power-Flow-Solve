@@ -4,7 +4,7 @@ This repository hosts a specialized Power Flow Analysis tool developed to bridge
 
 🧪 The Core Challenge
 
-In power systems, generators (PV buses) have physical limits on how much reactive power (1$Q$) they can provide.2 If the grid demand exceeds these limits, the generator can no longer maintain its voltage setpoint. This project implements a dynamic logic that detects these limit violations and automatically converts the bus to a PQ type—a feature typically found only in commercial-grade software.
+In power systems, generators (PV buses) have physical limits on how much reactive power (Q) they can provide.2 If the grid demand exceeds these limits, the generator can no longer maintain its voltage setpoint. This project implements a dynamic logic that detects these limit violations and automatically converts the bus to a PQ type—a feature typically found only in commercial-grade software.
 
 🛠 Technical Implementation
 
